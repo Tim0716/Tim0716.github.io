@@ -15,5 +15,5 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    file: /files/CV.pdf
+    url: /files/CV.pdf
     
