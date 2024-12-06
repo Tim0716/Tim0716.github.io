@@ -5,11 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-[[Journal Articles](#journal-articles)\ ]: #
-[[Conference Papers](#conference-papers)\ ]: #
+[Journal Articles](#journal-articles)\ 
+[Conference Papers](#conference-papers)\ 
 [Job Market Paper](#jmp)\
 [Working Papers](#working-papers)\ 
-[[Presentations](#presentations) ]: #
+[Presentations](#presentations) 
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
