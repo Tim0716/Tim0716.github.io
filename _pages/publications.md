@@ -17,21 +17,22 @@ author_profile: true
 
 {% include base_path %}
 
-## Journal Articles
+## Job Market Paper
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
+  {% if post.pubtype == 'jmp' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 
-## Conference Papers
+## Working Papers
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %}
+  {% if post.pubtype == 'workingpapers' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
+<!---
 ## White Papers
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'whitepaper' %}
@@ -54,3 +55,4 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+-->
