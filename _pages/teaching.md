@@ -22,12 +22,12 @@ author_profile: true
 
 ### Postgraduate
 - TA: Mathematics for Economics (Honors year)
-- TA: Econonometrics (Honors year)
+- TA: Econometrics (Honors year)
 - TA: Microeconomics (Game theory) (Masters)
 - TA: Economic History (Masters)
 
 ### Other
-- Facilitator: Data science Bootcamp
+- Facilitator: Data science Boot camp
 
 {% for post in site.teaching reversed %}
   {% if post.category == 'taught' %}
