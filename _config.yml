@@ -32,11 +32,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # Username
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # Username
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # Username
   researchgate     : # URL
   scopus           : # URL
 
