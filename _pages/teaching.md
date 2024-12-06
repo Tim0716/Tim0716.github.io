@@ -14,6 +14,21 @@ author_profile: true
 {% include base_path %}
 
 ## Modules Taught
+
+### Undergraduate
+- TA: Introductory Microeconomics (First year)
+- TA: Introductory Macroeconomics (First year)
+- TA: International trade (Second year)
+
+### Postgraduate
+- TA: Mathematics for Economics (Honors year)
+- TA: Econonometrics (Honors year)
+- TA: Microeconomics (Game theory) (Masters)
+- TA: Economic History (Masters)
+
+### Other
+- Facilitator: Data science Bootcamp
+
 {% for post in site.teaching reversed %}
   {% if post.category == 'taught' %}
       {% include archive-single.html %}
