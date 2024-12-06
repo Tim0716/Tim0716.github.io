@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "Research"
-permalink: /publications/
+title: "Teaching"
+permalink: /teaching/
 author_profile: true
 ---
+
 
 
 {% if site.author.googlescholar %}
@@ -12,18 +13,17 @@ author_profile: true
 
 {% include base_path %}
 
-## Job Market Paper
+## Modules Taught
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'jmp' %}
+  {% if post.category == 'taught' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 
-## Working Papers
+## Teaching current
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'workingpapers' %}
+  {% if post.category == 'teaching' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
