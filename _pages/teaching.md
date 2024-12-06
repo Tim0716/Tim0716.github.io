@@ -14,7 +14,7 @@ author_profile: true
 {% include base_path %}
 
 ## Modules Taught
-{% for post in site.publications reversed %}
+{% for post in site.teaching reversed %}
   {% if post.category == 'taught' %}
       {% include archive-single.html %}
   {% endif %}
@@ -22,7 +22,7 @@ author_profile: true
 
 
 ## Teaching current
-{% for post in site.publications reversed %}
+{% for post in site.teaching reversed %}
   {% if post.category == 'teaching' %}
       {% include archive-single.html %}
   {% endif %}
