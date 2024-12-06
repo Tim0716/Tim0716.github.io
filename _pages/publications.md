@@ -1,15 +1,17 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-[Journal Articles](#journal-articles)\ 
-[Conference Papers](#conference-papers)\ 
-[Job Market Paper](#jmp)\
-[Working Papers](#working-papers)\ 
-[Presentations](#presentations) 
+<!--->
+[Journal Articles](#journal-articles)\
+[Conference Papers](#conference-papers)\
+[White Papers](#white-papers)\
+[Academic](#academic)\
+[Presentations](#presentations)
+--->
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -17,21 +19,22 @@ author_profile: true
 
 {% include base_path %}
 
-## Journal Articles
+## Job Market Paper
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
+  {% if post.pubtype == 'jmp' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 
-## Conference Papers
+## Working Papers
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %}
+  {% if post.pubtype == 'workingpapers' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
+<!--->
 ## White Papers
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'whitepaper' %}
@@ -53,4 +56,4 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
+--->
