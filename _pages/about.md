@@ -13,4 +13,4 @@ My research interests are in Economics of Long run growth and Development, Econo
 
 I am also passionate about data science applications of economics and econometrics to policy and industry solutions.
 
-I am affiliated to Laboratory for Economics of Africa's Past (LEAP) chaired by Prof Johan Fourie who is also my letter writer
+I am affiliated to Laboratory for Economics of Africa's Past ([LEAP](https://leapstellenbosch.org.za)) chaired by Prof [Johan Fourie](https://johanfourie.com) who is also my letter writer
