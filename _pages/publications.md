@@ -4,13 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+<!---
 [Journal Articles](#journal-articles)\
 [Conference Papers](#conference-papers)\
 [White Papers](#white-papers)\
 [Academic](#academic)\
 [Presentations](#presentations)
-
+-->
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
