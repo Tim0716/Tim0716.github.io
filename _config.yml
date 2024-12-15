@@ -12,7 +12,7 @@ title                    : "Timothy Ngalande"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://Tim0716.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://timngalande.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Tim0716/Tim0716.github.io"
 
